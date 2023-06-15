@@ -1,0 +1,52 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+// Get input
+	// Prompt user "input first number" and save as variable Number1
+	// Prompt user "input second number" and save as variable Number2
+// Calculate and print	
+	// Number1 + Number2 and save to variable Result
+	// Print to screen "The sum is of (Number1) and (Number2) is (Result)."
+// End
+
+// Exercise 2: Check if a Number is Even or Odd
+
+// Get input
+	// Prompt user "input number" and save as variable Number
+// Calculate and print
+	// Run Number % 2 and save to variable Result
+	// IF Result == 0
+		// Print "your number is even!"
+	// ELSE 
+		// Print "your number is odd!"
+// End
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+// a) Get input and save to array
+	// create an array "A" with 5 elements
+	// Prompt user to input the array elements
+// b) Calculate average and save as variable
+	// (A[0] + A[1] + A[2] + A[3] + A[4]) / 5 and save to variable Average
+// c) Find smallest and largest numbers
+	// create variable min = A[0] and create variable max = A[0]
+	// FOR LOOP:
+	// set counter to 0
+	// break when counter reaches 4
+		// IF A[counter] < min
+			// min = A[counter]
+		// ELSE IF A[counter] > max
+			// max = A[counter]
+		// counter + 1
+// d) Print results
+	// print "The average of the input numbers is (Average)"
+	// print "The smallest number is (min)"
+	// print "The largest number is (max)"
+// End
+
+-- END --
